@@ -6,7 +6,6 @@
   .homeSection1 {
     width: 100%;
     height: calc(100vw * 0.5);
-
     position: absolute;
     object-fit: cover;
     top: 0;
@@ -18,7 +17,6 @@
   .homeSection2 {
     width: 100%;
     height: calc(100vw * 0.5);
-
     position: absolute;
     object-fit: cover;
     top: 0;
@@ -28,7 +26,13 @@
     }
   }
 }
-
+.section2,
+.section1 {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  // object-fit: fill;
+}
 .min-btn {
   width: 100%;
   position: absolute;
