@@ -1,0 +1,14 @@
+.footer{
+    height: 100px;
+    background-color: rgb(21, 21, 21);
+    align-items: center;
+    display: flex;
+    color: rgb(145, 145, 145);
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    @media screen and (max-width: 972px) {
+        height: 60px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,50 @@
+.social {
+  background-color: rgb(21, 21, 21);
+  height: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 972px) {
+    height: 100px;
+  }
+}
+.socialTwitter {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: white;
+  color: rgb(21, 21, 21);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  a {
+    color: rgb(21, 21, 21);
+    display: block;
+  }
+  @media screen and (max-width: 972px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+.socialDiscord {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: white;
+  color: rgb(21, 21, 21);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  > a {
+    color: rgb(21, 21, 21);
+    text-decoration: none;
+  }
+  @media screen and (max-width: 972px) {
+    width: 30px;
+    height: 30px;
+  }
+}
